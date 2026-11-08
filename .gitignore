@@ -1,0 +1,17 @@
+# dependencies & build output (termasuk di dalam hasil-akhir/)
+node_modules/
+.next/
+out/
+build/
+next-env.d.ts
+*.tsbuildinfo
+
+# env files
+.env*
+
+# misc
+.DS_Store
+Thumbs.db
+*.log
+.vercel
+.playwright-mcp/

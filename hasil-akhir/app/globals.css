@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Semua token tema ditulis di sini. Tailwind otomatis membuat kelasnya,
+   misalnya --color-fcc-navy menjadi bg-fcc-navy, text-fcc-navy, border-fcc-navy. */
+@theme {
+  /* Font utama: ambil dari variabel --font-lato yang dibuat di layout.tsx */
+  --font-sans: var(--font-lato), ui-sans-serif, system-ui, sans-serif;
+
+  /* Warna freeCodeCamp */
+  --color-fcc-navy: #0a0a23; /* navbar, teks tombol kuning */
+  --color-fcc-bg: #f5f6f7; /* latar halaman */
+  --color-fcc-text: #1b1b32; /* teks utama */
+  --color-fcc-gray: #3b3b4f; /* teks sekunder, latar section gelap */
+  --color-fcc-light: #dfdfe2; /* teks terang & latar footer */
+  --color-fcc-footer-text: #2a2a40; /* teks footer */
+  --color-fcc-border: #d0d0d5; /* garis tepi kartu */
+  --color-fcc-yellow: #feac32; /* border tombol kuning */
+  --color-fcc-yellow-light: #fecc4c; /* gradien tombol (atas) */
+  --color-fcc-yellow-dark: #ffac33; /* gradien tombol (bawah) */
+
+  /* Lebar maksimum konten: menghasilkan kelas max-w-fcc */
+  --container-fcc: 1170px;
+}
